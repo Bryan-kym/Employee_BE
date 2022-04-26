@@ -1,0 +1,26 @@
+jwt:
+  secret:  '[{(blsckisbeatifull;)}]abcdefghiklloopp5676647$'
+
+server:
+  port: 8081
+ 
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/bryan
+    password: 36635809
+    username: bryan
+  jpa:  
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+#  mvc:
+ #   throw-exception-if-no-handler-found: true
+#  web:
+ #   resources:
+ #     add-mappings: false
+ 
+ #AybxEED79M :pwd
