@@ -1,5 +1,5 @@
 jwt:
-  secret:  '[{(blsckisbeatifull;)}]abcdefghiklloopp5676647$'
+  secret:  'JWT-secret-token'
 
 server:
   port: 8081
@@ -7,9 +7,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost/bryan
-    password: 36635809
-    username: bryan
+    url: jdbc:mysql://localhost/yourdbname
+    password: yourpassword
+    username: yourusername
   jpa:  
     show-sql: true
     hibernate:
